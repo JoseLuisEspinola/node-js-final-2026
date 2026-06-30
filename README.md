@@ -117,6 +117,20 @@ Confirmar → se genera una orden en la colección orders.
 
 
 📦 Endpoints Principales
+Usuarios
+Usuarios
+POST /api/users → crear usuario (admin puede crear admin, cliente crea cliente).  
+
+GET /api/users/:id → obtener usuario por ID.  
+
+GET /api/users → listar usuarios (admin ve todos, cliente solo el suyo).  
+
+PUT /api/users/:id → actualizar usuario (admin o el propio).  
+
+DELETE /api/users/:id → baja lógica de usuario (admin o el propio).  
+
+
+
 Productos
 GET /api/products → lista todos los productos.
 
@@ -149,7 +163,8 @@ POST /api/cart/checkout → confirmar carrito y generar orden.
 
 
 Ordenes
-GET /api/orders → devuelve las órdenes del usuario logueado (historial de compras).  
+GET /api/orders → devuelve las órdenes del usuario logueado (historial de compras).
+
 GET /api/admin/orders → devuelve todas las órdenes del sistema (**solo admin**).  
 
 
