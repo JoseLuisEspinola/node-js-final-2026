@@ -124,6 +124,8 @@ GET /api/products/:id → producto por ID.
 
 POST /api/products/create → crear producto (admin).
 
+PUT /api/products/:id → actualiza un producto (admin).
+
 DELETE /api/products/:id → eliminar producto (admin).
 
 
@@ -136,7 +138,7 @@ POST /auth/login → login y generación de JWT
 Carrito
 GET /api/cart → carrito del usuario.
 
-POST /api/cart/add → agregar producto al carrito.
+POST /api/cart/add → agregar producto.
 
 PUT /api/cart/update/:id → actualizar cantidad.
 
@@ -191,7 +193,3 @@ Roles diferenciados (admin y cliente).
 Carrito persistente y generación de órdenes.
 
 Configuración segura de Firebase tanto en local como en producción.
-
-
-
-
