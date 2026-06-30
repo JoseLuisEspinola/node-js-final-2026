@@ -118,7 +118,6 @@ Confirmar → se genera una orden en la colección orders.
 
 📦 Endpoints Principales
 Usuarios
-Usuarios
 POST /api/users → crear usuario (admin puede crear admin, cliente crea cliente).  
 
 GET /api/users/:id → obtener usuario por ID.  
