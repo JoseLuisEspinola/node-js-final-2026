@@ -148,6 +148,13 @@ POST /api/cart/checkout → confirmar carrito y generar orden.
 
 
 
+Ordenes
+GET /api/orders → devuelve las órdenes del usuario logueado (historial de compras).  
+GET /api/admin/orders → devuelve todas las órdenes del sistema (**solo admin**).  
+
+
+
+
 ⚙️ Manejo de Errores
 404 Not Found → ruta inexistente.
 
